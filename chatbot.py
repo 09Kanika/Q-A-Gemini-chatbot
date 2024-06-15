@@ -14,18 +14,18 @@ def get_gemini_response(question):
     return response
 
 st.set_page_config(page_title="Q&A Chatbot")
-st.header("Conversational Q&A chatbot 💬🤖")
+st.header("Conversational Q&A chatbot 🤖")
 
 if 'chat_history' not in st.session_state:
     st.session_state['chat_history']=[]
 
 input=st.text_input("Input: ",key="input")
-submit=st.button("Ask question")
+submit=st.button("Ask question: ")
 
 if submit and input:
     response=get_gemini_response(input)
     st.session_state['chat_history'].append(("You",input))
-    st.subheader("The Response is: ")
+    st.subheader("Here's your response: ")
     for chunk in response:
         st.write(chunk.text)
 
