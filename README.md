@@ -25,7 +25,7 @@ Google Gemini Pro is an advanced language model developed by Google. It is desig
 
 
 ## Tools Used
-* Google Gemini Pro: Serves as the core natural language processing engine, enabling the chatbot to understand and generate responses.
-* Streamlit: Used for building the web interface of the chatbot, allowing users to interact with it in real-time and view the chat history.
+* Google Gemini Pro:Serves as the core natural language processing engine,enabling the chatbot to understand and generate responses.
+* Streamlit:Used for building the web interface of the chatbot,allowing users to interact with it in real-time and view the chat history.
 ## Contributions
 Contributions to the project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
